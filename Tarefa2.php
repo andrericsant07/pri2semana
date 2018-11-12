@@ -7,24 +7,24 @@
                    "Sandy",
                    "Jose",
                    "Alberto");
-    //$contador = 0;
-    //$TotaldeArrays = count($nome);
+    $contador = 0;
+    $TotaldeArrays = count($nome);
 
     //echo " O total de arrays é ".$TotaldeArrays. "<br><br>";
 
-    //do{
-     //   if($TotaldeArrays < 1){
-       //     break;
-    //    }
-      //  echo "Indice ";
-        //echo $contador. " - " .$nome[$contador];
-    //    echo "<br>";
-      //  $contador++;
-    //}while ($contador < $TotaldeArrays);
+    do{
+        if($TotaldeArrays < 1){
+            break;
+        }
+        echo "Indice ";
+        echo $contador. " - " .$nome[$contador];
+        echo "<br>";
+        $contador++;
+    }while ($contador < $TotaldeArrays);
 
-    foreach($nome as $lista){
-        echo $lista."<br>";
-    }
+    //foreach($nome as $lista){
+      //  echo $lista."<br>";
+   // }
     
     //for($contador = 0;$contador < count($nome); $contador ++){
       //  echo $nome[$contador]. "<br>";
